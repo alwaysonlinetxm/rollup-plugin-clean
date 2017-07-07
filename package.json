@@ -1,0 +1,31 @@
+{
+  "name": "rollup-plugin-clean",
+  "version": "1.0.0",
+  "description": "Clean the dest directory before rebuilding.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "repository": "https://github.com/alwaysonlinetxm/rollup-plugin-clean.git",
+  "bugs": "https://github.com/alwaysonlinetxm/rollup-plugin-clean/issues",
+  "author": "alwaysolinetxm",
+  "license": "MIT",
+  "files": [
+    "src",
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "rollup",
+    "rollup-plugin",
+    "clean"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "eslint": "eslint src",
+    "prepublish": "npm run eslint && npm run build"
+  },
+  "devDependencies": {
+    
+  },
+  "dependencies": {
+  }
+}
