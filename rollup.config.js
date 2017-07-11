@@ -9,7 +9,7 @@ export default {
     { format: 'cjs', dest: pkg['main'] },
     { format: 'es', dest: pkg['module'] }
   ],
-  external: ['fs', 'path', 'crypto'],
+  external: ['fs', 'path', 'assert', 'events', 'util'],
   plugins: [
     resolve(),
     commonjs(),

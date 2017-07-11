@@ -24,8 +24,13 @@
     "prepublish": "npm run eslint && npm run build"
   },
   "devDependencies": {
-    
+    "eslint": "^4.1.1",
+    "rollup": "^0.43.0",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0"
   },
   "dependencies": {
+    "rimraf": "^2.6.1"
   }
 }
